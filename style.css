@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.container {
+  margin: 100px auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th {
+  background-color: #666666;
+  color: #fff;
+  padding: 10px;
+}
+
+table td {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  border: 1px solid #dbdbdb;
+  background-color: #f2f1f1;
+  color: #5e7c90;
+}
+
+.about-us-links .accounting-office td {
+  text-align: right;
+  padding: 10px;
+  color: #5e737d;
+}
+
+.about-us-links .graduation td:first-child {
+  background-color: #fff;
+}
+
+.about-us-links .graduation th {
+  background-color: #d4212e;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  border: 1px solid #dbdbdb;
+  color: #fff;
+}
+
+.about-us-links .graduation th:first-child {
+  background-color: #464646;
+}
+
+.about-us-links .accounting-office th strong {
+  color: #4e6572;
+}
+
+.about-us-links .accounting-office tr:nth-child(odd) {
+  background-color: #dbdbdb;
+}
+
+.about-us-links .faculty-programs tr:nth-child(odd) {
+  background-color: #eaeaea;
+}
+
+.about-us-links .contact tr {
+  background-color: #eaeaea;
+}
+
+.about-us-links .contact td {
+  border: 1px solid #dbdbdb;
+  padding: 10px;
+}
